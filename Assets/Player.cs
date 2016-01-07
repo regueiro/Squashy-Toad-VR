@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-    public Text gazeText;
+    //public Text gazeText;
 
     public float jumpAngleInDegrees;
     public int jumpSpeed;
@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gazeText.enabled = showText;
-        gazeText.text = head.Gaze.ToString();
+        //gazeText.enabled = showText;
+        //gazeText.text = head.Gaze.ToString();
     }
 }
